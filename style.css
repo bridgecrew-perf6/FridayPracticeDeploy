@@ -1,3 +1,27 @@
-body {
+* {
   font-family: 'Roboto Mono', monospace;
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 2rem;
+}
+header {
+  background-image: url("https://st3.depositphotos.com/1336457/16922/v/600/depositphotos_169229256-stock-illustration-underwater-sea-shark-coral-cave.jpg?forcejpeg=true");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 5px solid purple;
+  margin: 0 auto;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+}
+main img {
+  height: 50%;
+}
+header li{
+  display:flex;
+  justify-content: space-around;
 }
